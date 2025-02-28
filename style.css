@@ -1,0 +1,75 @@
+* {
+     margin: 0;
+    padding: 0;
+    font-size: 20px;  
+    box-sizing: border-box;
+    background-color:lightblue;   
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: block; 
+}
+
+.countdown-container {
+    display: flex;
+    margin-bottom: 10px;  
+}
+
+form {
+    margin-right: 5px;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 1px 4px rgba(0, 0, 0.1, 0.1);
+    text-align: center;
+    background-color: aliceblue;
+}
+
+input:focus {
+    background-color: aliceblue;
+    outline:  3px double gray;
+
+}
+
+.button {
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 1px 4px rgba(0, 0, 0.1, 0.1);
+    color: aliceblue;
+    font-size: 0.9rem;
+    width: auto;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.submit-btn {
+   background-color: forestgreen;
+}
+
+.clear-btn {
+  background-color:red;
+}
+
+.countdown-text {
+   display: none;
+   margin-left: 15px;
+}
